@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topfy - Web player</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="topfy.css">
+</head>
+<body>
+    <div class="main">
+        <div class="menu">
+            <div class="topfy">
+                <div class="logo">T</div>
+                <div class="name">Topfy</div>
+            </div>
+            <div class="mn home"><img src="images/icons.jpg" >Início </div>
+            <div class="mn search"><img src="images/search.jpg" >Buscar</div>
+            <div class="mn biblioteca"><img src="images/biblioteca.jpg" >Sua Biblioteca</div>
+            <div class="mn playlist"><img src="images/+.jpg" >Criar Playlist</div>
+            <div class="mn curtidas"><img src="images/coracao.jpg" >Músicas Curtidas</div>
+        </div>
+        <section class="principal" >
+            <div class="topmusic">
+                <div class="upgrade">
+                    <p>FAÇA UPGRADE</p>
+                </div>
+                <div class="user"> 
+                    <P>---</P>
+                </div>
+            </div>
+            <div class="play">
+                <h1 style="color: white;">Boa Tarde</h1>
+                <div class="recomendadas">
+                    <div class="playlist1" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                        <div class= "imagem">
+                            <img src="images/msc curtidas.png">
+                        </div>
+                        <div class="title">
+                            <p>Músicas Curtidas</p>
+                        </div>
+                        <div class="buttonplay">
+                            <img src="images/playbt.png" alt="">
+                        </div>
+                    </div>
+                    <div class="playlist2" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                        <div class= "imagem">
+                            <img src="images/no repeat.png">
+                        </div>
+                        <div class="title">
+                            <p>No Repeat</p>
+                        </div>
+                        <div class="buttonplay">
+                            <img src="images/playbt.png" alt="">
+                        </div>
+                    </div>
+                    <div class="playlist3" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                        <div class= "imagem">
+                            <img src="images/gmg.png">
+                        </div>
+                        <div class="title">
+                            <p>Top Gaming Tracks</p>
+                        </div>
+                        <div class="buttonplay">
+                            <img src="images/playbt.png" alt="">
+                        </div>
+                    </div>
+                    <div class="playlist4" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                        <div class= "imagem">
+                            <img src="images/nas.png">
+                        </div>
+                        <div class="title">
+                            <p>Lil Nax S</p>
+                        </div>
+                        <div class="buttonplay">
+                            <img src="images/playbt.png" alt="">
+                        </div>
+                    </div>
+                    <div class="playlist5" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                        <div class= "imagem">
+                            <img src="images/my.png">
+                        </div>
+                        <div class="title">
+                            <p>My Musics</p>
+                        </div>
+                        <div class="buttonplay">
+                            <img src="images/playbt.png" alt="">
+                        </div>
+                    </div>
+                    <div class="playlist6" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                        <div class= "imagem">
+                            <img src="images/2000.png">
+                        </div>
+                        <div class="title">
+                            <p>Mix anos 2000</p>
+                        </div>
+                        <div class="buttonplay">
+                            <img src="images/playbt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="artista">
+                <div class="titulo">
+                    <h1>Feito para você</h1>
+                    <p>Quanto mais você escutar, melhores recomendações vai receber.</p>
+                </div>
+                <div class="daily">
+                    <div class="dl daily1" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                        <div class="miximg">
+                            <img src="images/dababy.png">
+                        </div>
+                        <div class="mixtitle">
+                            <h2>Dababy</h2>
+                        </div>
+                        <div class="mixdesc">
+                            <p>melhores músicas Dababy</p>
+                        </div>
+                    </div>
+                    <div class="dl daily2" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                        <div class="miximg">
+                            <img src="images/teccca.png">
+                        </div>
+                        <div class="mixtitle">
+                            <h2>Lil Tecca</h2>
+                        </div>
+                        <div class="mixdesc">
+                            <p>melhores músicas Lil Tecca</p>
+                        </div>
+                    </div>
+                    <div class="dl daily3" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                        <div class="miximg">
+                            <img src="images/alok.png">
+                        </div>
+                        <div class="mixtitle">
+                            <h2>Alok</h2>
+                        </div>
+                        <div class="mixdesc">
+                            <p>melhores músicas Alok</p>
+                        </div>
+                    </div>
+                    <div class="dl daily4" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                        <div class="miximg">
+                            <img src="images/tiaguin.png">
+                        </div>
+                        <div class="mixtitle">
+                            <h2>KillBunk</h2>
+                        </div>
+                        <div class="mixdesc">
+                            <p>melhores músicas KillBunk</p>
+                        </div>
+                    </div>
+                    <div class="dl daily5" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                        <div class="miximg">
+                            <img src="images/ariana.png">
+                        </div>
+                        <div class="mixtitle">
+                            <h2>Ariana</h2>
+                            <p>melhores músicas Ariana</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="search--" style="display: none;">
+            <div class="topsearch">
+                <form action="" style="display: flex;" class="form1">
+                    <div class="lupa">
+                            <div class="imgsrc" style="padding: 5px;">
+                                <img src="images/download__7_-removebg-preview.png" alt="">
+                            </div>
+                            <div class="">
+                                <input type="search" placeholder="      digite o nome dos artistas" class="inputsearchmsc">
+                            </div>
+                    </div>
+                    <button>Buscar</button>
+                </form>
+                <div class="user"> 
+                    <P>m4lc0lm01</P>
+                </div>
+        </section>
+        <section class="minhaBiblioteca" style="display: none;">
+            <header class="mnb">
+                <ul>
+                    <a href=""><li>Playlists</li></a>
+                </ul>
+                <div class="user"> 
+                    <P>m4lc0lm01</P>
+                </div>
+            </header>
+            <h1 style="color: white;">Playlists</h1>
+            <div class="mybib">
+                <div class="curtidasmb">
+                    <h1 style="color: white;">Músicas Curtidas</h1>
+                    <p class="likedmsz">Músicas Curtidas</p>
+                    <div class="cmb--">
+                        <p class="cmb"></p>
+                    </div>
+                    
+                </div>
+                <div class="dl daily1">
+                    <div class="miximg">
+                        <img src="images/music1.png">
+                    </div>
+                    <div class="mixtitle">
+                        <h2>Minha Playlist</h2>
+                    </div>
+                    <div class="mixdesc">
+                        <p>De m4lc0lm01</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="playmain">
+            <div class="pllist">
+                <div class="pic">
+                    <img src="images/music.png" alt="" class="imgpl">
+                </div>
+                <div class="data">
+                    <p>PLAYLIST</p>
+                    <h1>Minha Playlist nº1</h1>
+                    <p>m4lc0lm01</p>
+                </div>
+            </div>
+            <div class="playlistsearch--">
+               <h1>Vamos incrementar sua playlist</h1>
+               <input type="text" placeholder="Buscar músicas">
+            </div>
+        </section>
+        <section class="playlike" style="display: none;">
+            <div class="pllist">
+                <div class="pic">
+                    <img src="images/likadas.png" alt="" class="imgpl">
+                </div>
+                <div class="data">
+                    <p>PLAYLIST</p>
+                    <h1>Músicas Curtidas</h1>
+                    <p>m4lc0lm01</p>
+                </div>
+            </div>
+            <div class="curtidasplay--" >
+               <img src="images/playbt.png" alt="" class="playsh">
+                <div class="likedmusics">
+                    <div class="liked pl1">
+                        <p>#</p>
+                    </div>
+                    <div class="liked pl2">
+                        <p>TÍTULO</p>
+                    </div>
+                    <div class="liked pl3">
+                        <p>ÁLBUM</p>
+                    </div>
+                    <div class="liked pl4">
+                        <p>ADICIONADO EM</p>
+                    </div>
+                    <div class="liked pl5">
+                        <p>TEMPO</p>
+                     </div>
+                </div>
+                    <div class="musicaarea">
+                        <div class="musictoplay" data-key = "">
+                            <div class="msc pl1">
+                                <p class="id"></p>
+                            </div>
+                            <div class="msc pl2">
+                                <div class="picart">
+                                    
+                                </div>
+                                <div class="mscname">
+                                    
+                                </div>
+                            </div>
+                            <div class="msc pl3">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="msc pl4">
+                                <p></p>
+                            </div>
+                            <div class="msc pl5">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="norepeat" style="display: none;">
+            <div class="pllist">
+                <div class="pic">
+                    <img src="images/norepeatBig.png" alt="" class="imgpl">
+                </div>
+                <div class="data">
+                    <p>PLAYLIST</p>
+                    <h1>No Repeat</h1>
+                    <p>As músicas que você está curtindo agora</p>
+                </div>
+            </div>
+            <div class="curtidasplay--" >
+               <img src="images/playbt.png" alt="" class="playsh npt">
+                <div class="likedmusics">
+                    <div class="liked pl1">
+                        <p>#</p>
+                    </div>
+                    <div class="liked pl2">
+                        <p>TÍTULO</p>
+                    </div>
+                    <div class="liked pl3">
+                        <p>ÁLBUM</p>
+                    </div>
+                    <div class="liked pl4">
+                        <p>ADICIONADO EM</p>
+                    </div>
+                    <div class="liked pl5">
+                        <p>TEMPO</p>
+                     </div>
+                </div>
+                    <div class="musicaarea" >
+                        <div class="musictoplay">
+                            <div class="msc pl1">
+                                <p class="id"></p>
+                            </div>
+                            <div class="msc pl2">
+                                <div class="picart">
+                                    
+                                </div>
+                                <div class="mscname">
+                                    
+                                </div>
+                            </div>
+                            <div class="msc pl3">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="msc pl4">
+                                <p></p>
+                            </div>
+                            <div class="msc pl5">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="topgaming" style="display: none;">
+            <div class="pllist">
+                <div class="pic">
+                    <img src="images/topgamingtracks.png" alt="" class="imgpl">
+                </div>
+                <div class="data">
+                    <p>PLAYLIST</p>
+                    <h1>Top Gaming Tracks</h1>
+                    <p>The tracks that gamers love.</p>
+                </div>
+            </div>
+            <div class="curtidasplay--" >
+               <img src="images/playbt.png" alt="" class="playsh tpg">
+                <div class="likedmusics">
+                    <div class="liked pl1">
+                        <p>#</p>
+                    </div>
+                    <div class="liked pl2">
+                        <p>TÍTULO</p>
+                    </div>
+                    <div class="liked pl3">
+                        <p>ÁLBUM</p>
+                    </div>
+                    <div class="liked pl4">
+                        <p>ADICIONADO EM</p>
+                    </div>
+                    <div class="liked pl5">
+                        <p>TEMPO</p>
+                     </div>
+                </div>
+                    <div class="musicaarea" >
+                        <div class="musictoplay">
+                            <div class="msc pl1">
+                                <p class="id"></p>
+                            </div>
+                            <div class="msc pl2">
+                                <div class="picart">
+                                    
+                                </div>
+                                <div class="mscname">
+                                    
+                                </div>
+                            </div>
+                            <div class="msc pl3">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="msc pl4">
+                                <p></p>
+                            </div>
+                            <div class="msc pl5">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="lilx" style="display: none;">
+            <div class="pllist">
+                <div class="data">
+                    <p>PLAYLIST</p>
+                    <h1>Lil Nax S</h1>
+                    <p>54.979.561 ouvintes mensais</p>
+                </div>
+            </div>
+            <div class="curtidasplay--" >
+               <img src="images/playbt.png" alt="" class="playsh lil">
+                <div class="likedmusics">
+                    <div class="liked pl1">
+                        <p>#</p>
+                    </div>
+                    <div class="liked pl2">
+                        <p>TÍTULO</p>
+                    </div>
+                    <div class="liked pl3">
+                        <p>ÁLBUM</p>
+                    </div>
+                    <div class="liked pl4">
+                        <p>ADICIONADO EM</p>
+                    </div>
+                    <div class="liked pl5">
+                        <p>TEMPO</p>
+                     </div>
+                </div>
+                    <div class="musicaarea" >
+                        <div class="musictoplay">
+                            <div class="msc pl1">
+                                <p class="id"></p>
+                            </div>
+                            <div class="msc pl2">
+                                <div class="picart">
+                                    
+                                </div>
+                                <div class="mscname">
+                                    
+                                </div>
+                            </div>
+                            <div class="msc pl3">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="msc pl4">
+                                <p></p>
+                            </div>
+                            <div class="msc pl5">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="mymusics---" style="display: none;">
+            <div class="pllist">
+                <div class="pic">
+                    <img src="images/gigante.png" alt="" class="imgpl">
+                </div>
+                <div class="data">
+                    <p>PLAYLIST</p>
+                    <h1>My Musics</h1>
+                    <p>m4lc0lm01 - 1 música, 2min 52s</p>
+                </div>
+            </div>
+            <div class="curtidasplay--" >
+               <img src="images/playbt.png" alt="" class="playsh mysc">
+                <div class="likedmusics">
+                    <div class="liked pl1">
+                        <p>#</p>
+                    </div>
+                    <div class="liked pl2">
+                        <p>TÍTULO</p>
+                    </div>
+                    <div class="liked pl3">
+                        <p>ÁLBUM</p>
+                    </div>
+                    <div class="liked pl4">
+                        <p>ADICIONADO EM</p>
+                    </div>
+                    <div class="liked pl5">
+                        <p>TEMPO</p>
+                     </div>
+                </div>
+                    <div class="musicaarea" >
+                        <div class="musictoplay">
+                            <div class="msc pl1">
+                                <p class="id"></p>
+                            </div>
+                            <div class="msc pl2">
+                                <div class="picart">
+                                    
+                                </div>
+                                <div class="mscname">
+                                    
+                                </div>
+                            </div>
+                            <div class="msc pl3">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="msc pl4">
+                                <p></p>
+                            </div>
+                            <div class="msc pl5">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="mix2000" style="display: none;">
+            <div class="pllist">
+                <div class="pic">
+                    <img src="images/mix2k.png" alt="" class="imgpl">
+                </div>
+                <div class="data">
+                    <p>PLAYLIST</p>
+                    <h1>Mix Anos 2000</h1>
+                    <p>The tracks that olders love.</p>
+                </div>
+            </div>
+            <div class="curtidasplay--" >
+               <img src="images/playbt.png" alt="" class="playsh doismil">
+                <div class="likedmusics">
+                    <div class="liked pl1">
+                        <p>#</p>
+                    </div>
+                    <div class="liked pl2">
+                        <p>TÍTULO</p>
+                    </div>
+                    <div class="liked pl3">
+                        <p>ÁLBUM</p>
+                    </div>
+                    <div class="liked pl4">
+                        <p>ADICIONADO EM</p>
+                    </div>
+                    <div class="liked pl5">
+                        <p>TEMPO</p>
+                     </div>
+                </div>
+                    <div class="musicaarea" >
+                        <div class="musictoplay">
+                            <div class="msc pl1">
+                                <p class="id"></p>
+                            </div>
+                            <div class="msc pl2">
+                                <div class="picart">
+                                    
+                                </div>
+                                <div class="mscname">
+                                    
+                                </div>
+                            </div>
+                            <div class="msc pl3">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="msc pl4">
+                                <p></p>
+                            </div>
+                            <div class="msc pl5">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+
+        <!-- daily mix -->
+        <section class="dababy--" style="display: none;">
+            <div class="pllist">
+                <div class="pic">
+                    <img src="images/dababy.png" alt="" class="imgpl">
+                </div>
+                <div class="data">
+                    <p>PLAYLIST</p>
+                    <h1>Mix Anos 2000</h1>
+                    <p>The tracks that olders love.</p>
+                </div>
+            </div>
+            <div class="curtidasplay--" >
+               <img src="images/playbt.png" alt="" class="playsh byb">
+                <div class="likedmusics">
+                    <div class="liked pl1">
+                        <p>#</p>
+                    </div>
+                    <div class="liked pl2">
+                        <p>TÍTULO</p>
+                    </div>
+                    <div class="liked pl3">
+                        <p>ÁLBUM</p>
+                    </div>
+                    <div class="liked pl4">
+                        <p>ADICIONADO EM</p>
+                    </div>
+                    <div class="liked pl5">
+                        <p>TEMPO</p>
+                     </div>
+                </div>
+                    <div class="musicaarea" >
+                        <div class="musictoplay">
+                            <div class="msc pl1">
+                                <p class="id"></p>
+                            </div>
+                            <div class="msc pl2">
+                                <div class="picart">
+                                    
+                                </div>
+                                <div class="mscname">
+                                    
+                                </div>
+                            </div>
+                            <div class="msc pl3">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="msc pl4">
+                                <p></p>
+                            </div>
+                            <div class="msc pl5">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="tecca--" style="display: none;">
+            <div class="pllist">
+                <div class="pic">
+                    <img src="images/teccca.png" alt="" class="imgpl">
+                </div>
+                <div class="data">
+                    <p>PLAYLIST</p>
+                    <h1>Mix Anos 2000</h1>
+                    <p>The tracks that olders love.</p>
+                </div>
+            </div>
+            <div class="curtidasplay--" >
+               <img src="images/playbt.png" alt="" class="playsh tcc">
+                <div class="likedmusics">
+                    <div class="liked pl1">
+                        <p>#</p>
+                    </div>
+                    <div class="liked pl2">
+                        <p>TÍTULO</p>
+                    </div>
+                    <div class="liked pl3">
+                        <p>ÁLBUM</p>
+                    </div>
+                    <div class="liked pl4">
+                        <p>ADICIONADO EM</p>
+                    </div>
+                    <div class="liked pl5">
+                        <p>TEMPO</p>
+                     </div>
+                </div>
+                    <div class="musicaarea" >
+                        <div class="musictoplay">
+                            <div class="msc pl1">
+                                <p class="id"></p>
+                            </div>
+                            <div class="msc pl2">
+                                <div class="picart">
+                                    
+                                </div>
+                                <div class="mscname">
+                                    
+                                </div>
+                            </div>
+                            <div class="msc pl3">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="msc pl4">
+                                <p></p>
+                            </div>
+                            <div class="msc pl5">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="alok--" style="display: none;">
+            <div class="pllist">
+                <div class="pic">
+                    <img src="images/alok.png" alt="" class="imgpl">
+                </div>
+                <div class="data">
+                    <p>PLAYLIST</p>
+                    <h1>Mix Anos 2000</h1>
+                    <p>The tracks that olders love.</p>
+                </div>
+            </div>
+            <div class="curtidasplay--" >
+               <img src="images/playbt.png" alt="" class="playsh alk">
+                <div class="likedmusics">
+                    <div class="liked pl1">
+                        <p>#</p>
+                    </div>
+                    <div class="liked pl2">
+                        <p>TÍTULO</p>
+                    </div>
+                    <div class="liked pl3">
+                        <p>ÁLBUM</p>
+                    </div>
+                    <div class="liked pl4">
+                        <p>ADICIONADO EM</p>
+                    </div>
+                    <div class="liked pl5">
+                        <p>TEMPO</p>
+                     </div>
+                </div>
+                    <div class="musicaarea" >
+                        <div class="musictoplay">
+                            <div class="msc pl1">
+                                <p class="id"></p>
+                            </div>
+                            <div class="msc pl2">
+                                <div class="picart">
+                                    
+                                </div>
+                                <div class="mscname">
+                                    
+                                </div>
+                            </div>
+                            <div class="msc pl3">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="msc pl4">
+                                <p></p>
+                            </div>
+                            <div class="msc pl5">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="thiaguinho--" style="display: none;">
+            <div class="pllist">
+                <div class="pic">
+                    <img src="images/tiaguin.png" alt="" class="imgpl">
+                </div>
+                <div class="data">
+                    <p>PLAYLIST</p>
+                    <h1>Mix Anos 2000</h1>
+                    <p>The tracks that olders love.</p>
+                </div>
+            </div>
+            <div class="curtidasplay--" >
+               <img src="images/playbt.png" alt="" class="playsh kil">
+                <div class="likedmusics">
+                    <div class="liked pl1">
+                        <p>#</p>
+                    </div>
+                    <div class="liked pl2">
+                        <p>TÍTULO</p>
+                    </div>
+                    <div class="liked pl3">
+                        <p>ÁLBUM</p>
+                    </div>
+                    <div class="liked pl4">
+                        <p>ADICIONADO EM</p>
+                    </div>
+                    <div class="liked pl5">
+                        <p>TEMPO</p>
+                     </div>
+                </div>
+                    <div class="musicaarea" >
+                        <div class="musictoplay">
+                            <div class="msc pl1">
+                                <p class="id"></p>
+                            </div>
+                            <div class="msc pl2">
+                                <div class="picart">
+                                    
+                                </div>
+                                <div class="mscname">
+                                    
+                                </div>
+                            </div>
+                            <div class="msc pl3">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="msc pl4">
+                                <p></p>
+                            </div>
+                            <div class="msc pl5">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="ariana--" style="display: none;">
+            <div class="pllist">
+                <div class="pic">
+                    <img src="images/gigante.png" alt="" class="imgpl">
+                </div>
+                <div class="data">
+                    <p>PLAYLIST</p>
+                    <h1>Mix Anos 2000</h1>
+                    <p>The tracks that olders love.</p>
+                </div>
+            </div>
+            <div class="curtidasplay--" >
+               <img src="images/playbt.png" alt="" class="playsh arn">
+                <div class="likedmusics">
+                    <div class="liked pl1">
+                        <p>#</p>
+                    </div>
+                    <div class="liked pl2">
+                        <p>TÍTULO</p>
+                    </div>
+                    <div class="liked pl3">
+                        <p>ÁLBUM</p>
+                    </div>
+                    <div class="liked pl4">
+                        <p>ADICIONADO EM</p>
+                    </div>
+                    <div class="liked pl5">
+                        <p>TEMPO</p>
+                     </div>
+                </div>
+                    <div class="musicaarea" >
+                        <div class="musictoplay">
+                            <div class="msc pl1">
+                                <p class="id"></p>
+                            </div>
+                            <div class="msc pl2">
+                                <div class="picart">
+                                    
+                                </div>
+                                <div class="mscname">
+                                    
+                                </div>
+                            </div>
+                            <div class="msc pl3">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="msc pl4">
+                                <p></p>
+                            </div>
+                            <div class="msc pl5">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <div class="player">
+            <div class="pictureartist">
+                <div class="picart biggest">
+                    <img src="images/ariana.png" alt="">               
+                </div>
+                <div class="mscname biggest">
+                    <p style="font-size: 12px;"></p>
+                    <p class="artistnameactual"></p>
+                </div>
+            </div>
+            <div class="playeritens">
+                <div class="player--itens">
+                        <i class="fas fa-backward setas anterior"></i>
+                        <i class="fas fa-play buton-play"></i>
+                        <i class="fas fa-pause buton-pause"></i>
+                        <i class="fas fa-forward setas proxima"></i>
+                </div>
+                <audio src="musics/Ariana-positions.mp3"></audio>
+                <div class="barra">
+                    <div class="barra--">
+                        <progress value="0" max="1"></progress>
+                    </div>
+                    <div class="duração" style="display: flex; justify-content: space-between;">
+                        <p class="inicio">0:00</p> <p class="fim">2:40</p>
+                    </div>
+                </div>
+            </div>
+            <div class="volume">
+                <i class="fas fa-volume-up"></i>
+            </div>
+        </div>
+    </div> 
+    <script src="musicas.js"></script>
+    <script src="topfy.js"></script>
+</body>
+</html>

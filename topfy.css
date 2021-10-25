@@ -1,0 +1,591 @@
+* {
+    box-sizing: border-box
+}
+
+/*MENU*/
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+.mn {
+    font-size: 14px;
+    color: rgb(197, 197, 197);
+}
+.tocar {
+    background: rgba(199, 189, 189, 0.658);
+}
+.selected {
+    border: 1px solid white;
+    color: #FFFFFF;
+}
+.principal {
+    background: linear-gradient(180deg, rgb(43, 43, 99) 0%, #150f17 40%);
+}
+.main {
+    display: flex;
+}
+.menu{
+    background-color: black;
+    flex-direction: column;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.topfy {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 15px;
+}
+.name {
+    margin-left: 10px;
+}
+.logo {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.home, .search, .biblioteca,
+.playlist, .curtidas, .mymusic {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.playlist {
+    margin-top: 40px;
+}
+.curtidas {
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.menu img {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.mn:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+/*NAVEGAÇÃO UPGRADE*/
+section {
+    display: flex;
+    margin-left: 250px;
+    min-height: calc(100vh + 95px);
+    overflow-y: auto;
+}
+.principal {
+    display: block;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.topmusic {
+    display: flex;
+    width: calc(100vw - 270px);
+    justify-content: flex-end;
+    align-items: center;
+}
+.upgrade, .user {
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    text-align: center;
+    padding: px;
+}
+.upgrade {
+    width: 250px;
+}
+.user {
+    width: 150px;
+}
+
+/*PLAYLISTS*/
+.play {
+    padding: 20px;
+}
+.play h1 {
+    margin: 5px;
+}
+
+.recomendadas {
+    display: grid;
+    grid-template-areas: 
+    "playlist1 playlist2 playlist3"
+    "playlist4 playlist5 playlist6"
+    ;
+}
+.playlist1 {
+    display: flex;
+    background-color: rgba(78, 78, 78, 0.384);
+    color: white;
+    border-radius: 5px;
+    width: 330px;
+    height: 87px;
+    margin: 5px;
+    align-items: center;
+    grid-area: playlist1;
+}
+.playlist2 {
+    display: flex;
+    background-color: rgba(78, 78, 78, 0.384);;
+    color: white;
+    border-radius: 5px;
+    width: 330px;
+    margin: 5px;
+    align-items: center;
+    grid-area: playlist2;
+}
+.playlist3 {
+    display: flex;
+    background-color: rgba(78, 78, 78, 0.384);;
+    color: white;
+    border-radius: 5px;
+    width: 330px;
+    margin: 5px;
+    align-items: center;
+    grid-area: playlist3;
+}
+.playlist4 {
+    display: flex;
+    background-color: rgba(78, 78, 78, 0.384);;
+    color: white;
+    border-radius: 5px;
+    width: 330px;
+    margin: 5px;
+    align-items: center;
+    grid-area: playlist4;
+}
+.playlist5 {
+    display: flex;
+    background-color: rgba(78, 78, 78, 0.384);;
+    color: white;
+    border-radius: 5px;
+    width: 330px;
+    margin: 5px;
+    align-items: center;
+    grid-area: playlist5;
+}
+.playlist6 {
+    display: flex;
+    background-color: rgba(78, 78, 78, 0.384);
+    color: white;
+    border-radius: 5px;
+    width: 330px;
+    margin: 5px;
+    align-items: center;
+    grid-area: playlist6;
+}
+
+.imagem {
+    height: 87px;
+    border-radius: 3px;
+}
+.imagem img{
+    height: 87px;
+    border-radius: 3px;
+}
+.title {
+    margin-left: 10px;
+}
+.buttonplay img  {
+    object-fit: contain;
+    height: 50px;
+    width: 50px;
+}
+.buttonplay {
+    margin-left: 15px;
+    display: block;
+}
+
+
+/*Feito para voce*/
+.artista {
+    padding: 20px;
+}
+.titulo h1, p {
+    margin: 0px;
+}
+.daily {
+    display: flex;
+}
+.dl {
+    width: 185px;
+    background: rgba(44, 43, 43, 0.644);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+}
+.dl h2 {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+}
+.dl p{
+    margin: 0;
+    color: white;
+    font-size: 13px;
+    height: 50px;
+    color: rgb(150, 150, 150);
+}
+.miximg img{
+    box-shadow: 4px 4px 5px black;
+}
+.miximg {
+    margin: auto;
+}
+.mixtitle {
+    text-align: start;
+}
+.titulo h1, p {
+    color: white;
+}
+
+
+/*search*/
+.search-- {
+    background-color: #121212;
+}
+.topsearch {
+    display: flex;
+    width: calc(100vw - 270px);
+    align-items: center;
+    justify-content: space-between;
+}
+input {
+    width: 350px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.topsearch img {
+    height: 25px;
+    width: 25px;
+}
+.lupa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+/*Minha Biblioteca*/
+.minhaBiblioteca{
+    background-color: #121212;
+    padding: 20px;
+    padding-top: 3px;
+    width: calc(100vw - 250px);
+}
+.mnb {
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li {
+    margin-left: 40px;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.mybib {
+    display: flex;
+}
+.curtidasmb {
+    width: 390px;
+    margin-left: 15px;
+    margin-right: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 5px;
+    background: linear-gradient(120deg, blue 0%, rgb(168, 157, 228) 90%);
+    cursor: pointer;
+}
+.cmb-- {
+    display: flex;
+}
+.cmb {
+    font-size: 12px;
+}
+.curtidasmb h1, p {
+    margin: 0;
+}
+.curtidasmb h1 {
+    margin-top: 30px;
+}
+
+
+/*Criar Playlist*/
+.playmain {
+    height: 110vh;
+    display: none;
+    background: linear-gradient(180deg, rgb(84, 84, 84),rgb(0, 0, 0));
+    width: calc(100vw - 260px);
+    flex-direction: column;
+}
+.pllist {
+    display: flex;
+    padding: 30px;
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    margin: 13px;
+    margin-bottom: 0;
+}
+.data h1 {
+    font-size: 85px;
+    font-weight: bold;
+}
+.data h1, p {
+    margin: 0px;
+}
+.data p {
+    font-size: 12px;
+}
+.pic, .pic img {
+    height: 230px;
+}
+.pic img {
+    box-shadow: 0px 0px 25px black;
+}
+.playlistsearch-- {
+    height: 100%;
+    padding: 30px;
+    background: linear-gradient(rgb(31, 31, 31), rgb(8, 8, 8));
+}
+.playlistsearch-- h1 {
+    color: white;
+    font-size: 20px;
+}
+.playlistsearch-- input {
+    border-radius: 6px;
+    background: rgba(119, 113, 113, 0.384) ;
+    width: 300px;
+    height: 40px;
+}
+.playlistsearch-- ::placeholder {
+    color: rgb(173, 173, 173);
+}
+
+/*CURTIDAS*/
+.playlike {
+    display: flex;
+    background: linear-gradient(180deg, rgb(80, 58, 156) 0%,rgb(47, 33, 91) 35%);
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.playsh{
+    height: 80px;
+    width: 80px;
+    cursor: pointer
+}
+.curtidasplay-- {
+    padding: 30px;
+    background: linear-gradient(rgb(31, 31, 31), rgb(8, 8, 8));
+    overflow-x: hidden;
+}
+
+.likedmusics {
+    display: grid;
+    grid-template-columns: 30px 250px 250px 250px 250px;
+    width: 950px;
+    padding: 0px 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+}
+.liked p{
+    font-size: 13px;
+    color: rgb(189, 177, 177);
+}
+
+.musictoplay {
+    display: none;
+    grid-template-columns: 30px 250px 250px 250px 250px;
+    width: 950px;
+    padding: 0px 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 54px;
+}
+.musictoplay:hover {
+    background-color: rgba(139, 138, 138, 0.295);
+    cursor: pointer;
+}
+.msc p{
+    font-size: 13px;
+    color: rgb(189, 177, 177);
+}
+.picart img  {
+    height: 54px;
+    width: 54px;
+    object-fit: cover;
+}
+.msc.pl2 {
+    display: flex;
+}
+.mscname {
+    margin-left: 10px;
+    color: white
+}
+.mscname p {
+    font-size: 15px;
+}
+
+
+/*naorepita*/
+.norepeat {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: rgb(30, 37, 80)
+}
+.topgaming {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background: linear-gradient(rgb(14, 245, 222)0%, rgb(3, 94, 85) 60%)
+}
+.topgaming h1 {
+    font-size: 75px;
+}
+.lilx {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-image: url('images/lil-nas-x.jpg');
+    background-position-x: center;
+    background-position-y: top;
+    text-shadow: 1px 1px 3px black;
+}
+.mymusics--- {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background: linear-gradient(rgb(92, 119, 112)0%, rgb(60, 78, 73) 60%)
+}
+.mix2000 {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background: linear-gradient(rgb(69, 142, 157)0%, rgb(20, 44, 49) 60%)
+}
+.musicaarea {
+    height: 1000px
+}
+.player {
+    display: flex;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 90px;
+    width: 100vw;
+    position: fixed ;
+    background-color: rgb(24, 24, 24);
+    border-top: 1px solid rgb(85, 85, 85);
+}
+.player {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+}
+.pictureartist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playeritens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player--itens, .volume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player--itens {
+    display: flex;
+    width: 130px;
+    justify-content: space-around;
+}
+i {
+    color: white;
+}
+.playeritens img  {
+    height: 15px;
+    width: 15px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.barra {
+    margin-top: 10px;
+}
+.barra--{
+    width: 400px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+}
+progress {
+    height: 4px;
+    width: 0%;
+    border-radius: 3px;
+}
+.buton-play, .buton-pause {
+    display: flex;
+    font-size: 10px;
+    margin: 5px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+}
+.buton-pause {
+    display: none;
+}
+.inicio, .fim {
+    font-size: 10px;
+}
+.setas {
+    font-size: 12px;
+}
+.artistnameactual {
+    font-size: 10px;
+}
+.dababy--, .tecca--, .alok--, .thiaguinho--, .ariana-- {
+    display: block;
+    flex-direction: column;
+    background: linear-gradient(rgb(83, 83, 83) 0%, rgb(47, 47, 47) 50%);
+}
