@@ -11,7 +11,7 @@
 - [x] Menu funcional feito com pura lógica no Javascript
 - [x] Todas as músicas na área Músicas Curtidas
 - [x] Músicas filtradas por artistas e por outros gêneros
-- [x] Músicas podem ser reproduzidas normalmente, se entrar em uma área filtrada, a música tocada será a da área específica
+- [x] Músicas podem ser reproduzidas normalmente, se entrar em uma área filtrada, a música tocada será a da área específica </br>
 Funcionalidades a ser adicionada:
 - [] Encontrar música na área de busca
 - [] Criar Playlist
