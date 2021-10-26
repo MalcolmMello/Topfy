@@ -19,7 +19,7 @@ Funcionalidades a ser adicionada:
 
 
 <h1>
-    <img alt="Readme" title= "Readme" src="./gifs/topfy.gif" />
+    <img alt="Readme" title= "Readme" src="./gifs/topfy1.gif" />
 </h1>
 
 ### Pré-requisitos
